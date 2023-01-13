@@ -10,9 +10,9 @@ import { RecipeService } from '../recipe.service';
 })
 export class RecipeDetailComponent implements OnInit {
 
-
   recipe: Recipe;
   id: number;
+
   constructor(private receipeService : RecipeService,
     private route: ActivatedRoute,
     private router: Router) { }
